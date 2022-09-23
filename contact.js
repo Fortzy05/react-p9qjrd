@@ -1,11 +1,11 @@
 import React from "react"
 const Contact = () =>{
   return(
-<div>
-  <p>Contact me</p>
+<section id="contact">
+  <h2>Contact me</h2>
   <p>I'm always interested in hearing about new opportunity to contribute to great and innovative projects</p>
-  <a href="omorodion.fortune@gmail.com">Email me</a>
-</div>
+  <p><a href="mailto:omorodion.fortune@gmail.com">Email me</a></p>
+</section>
   )
 }
 
