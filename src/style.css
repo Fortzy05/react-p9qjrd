@@ -8,7 +8,7 @@
   --aqua: #86fbfb;
   --white: #f7f8fa;
   --font-size: 1.3rem;
-  --mono: "Oxygen mono", monospace;
+  --mono: 'Oxygen mono', monospace;
   --sans: Oxygen, sans-serif;
 }
 /* border box model: https://css-tricks.com/box-sizing/ */
@@ -76,6 +76,30 @@ a:hover {
   padding: 3rem 0;
 }
 
-#contact p:last-child{
-  margin-top: 3rem ;
+#contact p:last-child {
+  margin-top: 3rem;
+}
+nav {
+  font-family: var(--mono);
+  font-size: 80%;
+  padding: 1rem;
+}
+
+nav h1 a {
+  font-family: var(--sans);
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+nav a {
+  color: var(--white);
+  text-decoration: none;
+
 }
