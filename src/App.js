@@ -1,8 +1,11 @@
 import React from "react";
 import "./style.css";
 import Contact from " ./contact.js"
+import NavBar from "./navbar"
 export default function App() {
   return (
+    <>
+    <NavBar/>
     <section id="intro">
   <p className="name" >Hi, my name is <span >Omorodion Fortune.</span></p>
   <h2>I develop, design the front end of websites, user experiences, user interfaces, digital experiences, etc.</h2>
@@ -11,6 +14,7 @@ export default function App() {
   </p> <p>I'm working at XYZ Corp, completing the XYZ Bootcamp, making a career switch from X to Y, etc.</p>
   <Contact/>
 </section>
+</>
 );
 
 }
