@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Contact from "../contact.js"
+import Contact from " ./contact.js"
 export default function App() {
   return (
     <section id="intro">
