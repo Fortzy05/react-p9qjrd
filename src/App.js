@@ -1,7 +1,9 @@
 import React from "react";
 import "./style.css";
-import Contact from " ./contact.js"
-import NavBar from "./navbar"
+import Contact from " ./contact.js";
+import NavBar from "./navbar";
+
+ 
 export default function App() {
   return (
     <>
